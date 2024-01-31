@@ -6,6 +6,8 @@ RUN apt-get update && \
 
 COPY . app/
 
+WORKDIR /app
+
 RUN make -f Makefile
 
 CMD ["./hello_world"]
