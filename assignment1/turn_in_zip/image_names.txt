@@ -1,0 +1,6 @@
+Here are the names of the images from 
+assignment 1 for you to pull from dockerhub:
+
+python assignment: tkduncan/python-script
+make assignment:   tkduncan/make-app
+cmake assignment:  tkduncan/cmake-app
