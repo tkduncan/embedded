@@ -6,7 +6,7 @@ RUN apt-get update && \
 
 COPY . app/
 
-WORKDIR /app/build 
+WORKDIR /app/build_d
 RUN cmake .. 
 RUN cmake --build .
 
