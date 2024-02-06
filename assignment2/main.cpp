@@ -7,12 +7,20 @@ using namespace std;
 int main(void)
 {
     int num1 = 0, num2 = 0;
-    double num3 = 0.0, num4 = 0.0;
+    double num3 = 0, num4 = 0;
     
-    cout << "Enter a value for num1: " << endl;
+    cout << "Enter an integer for num1: " << endl;
     cin >> num1;
-    cout << "Enter a value for num2: " << endl;
+
+    cout << "Enter an integer for num2: " << endl;
     cin >> num2;
+    // Make sure you're not dividing by 0 and is an int
+    while (num2 == 0)
+    {
+        cout << "Invalid. Cannot divide by 0" << endl;
+        cout << "Enter an integer for num2: " << endl;
+        cin >> num2;
+    }
     cout << endl;
 
     cout << "Using C static library:" << endl;
@@ -21,10 +29,18 @@ int main(void)
     cout << "num1 * num2 = " << multiply(num1, num2) << endl;
     cout << "num1 / num2 = " << divide(num1, num2) << endl << endl;
     
-    cout << "Enter a value for num3: " << endl;
+    cout << "Enter a double for num3: " << endl;
     cin >> num3;
-    cout << "Enter a value for num4: " << endl;
+
+    cout << "Enter a double for num4: " << endl;
     cin >> num4;
+    // Make sure you're not dividing by 0
+    while (num4 == 0)
+    {
+        cout << "Invalid entry. Can't divide by 0" << endl;
+        cout << "Enter a double for num4: " << endl;
+        cin >> num4;
+    }
     cout << endl;
 
     cout << "Using C++ static library:" << endl;
