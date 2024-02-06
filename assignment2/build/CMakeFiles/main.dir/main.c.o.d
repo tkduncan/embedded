@@ -36,4 +36,5 @@ CMakeFiles/main.dir/main.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/secure/_common.h \
+  /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/double_lib/double_arithmetic.h \
   /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/int_lib/int_arithmetic.h
