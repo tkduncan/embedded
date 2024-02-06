@@ -2,8 +2,9 @@ To run this from the repository and create an executable,
 first ensure cmake and g++ are installed. Then, run these 
 commands from the root of the repository:
 
+cd assignment2
 mkdir build
-cd assignment2/build
+cd build
 cmake ..
 make
 ./main
