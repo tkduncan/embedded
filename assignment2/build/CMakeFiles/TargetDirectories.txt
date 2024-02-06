@@ -1,0 +1,5 @@
+/Users/troyduncan/projects/Ubuntu/Embedded/assignment2/build/CMakeFiles/main.dir
+/Users/troyduncan/projects/Ubuntu/Embedded/assignment2/build/CMakeFiles/intarithmetic.dir
+/Users/troyduncan/projects/Ubuntu/Embedded/assignment2/build/CMakeFiles/doublearithmetic.dir
+/Users/troyduncan/projects/Ubuntu/Embedded/assignment2/build/CMakeFiles/edit_cache.dir
+/Users/troyduncan/projects/Ubuntu/Embedded/assignment2/build/CMakeFiles/rebuild_cache.dir
