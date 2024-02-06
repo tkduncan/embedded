@@ -793,7 +793,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/troyduncan/projects/Ubuntu/Embedded/assig
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
-  /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/double_lib/double_arithmetic.h
+  /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/double_lib/double_arithmetic.h \
+  /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/int_lib/int_arithmetic.h
 
 
 /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/double_lib/double_arithmetic.h:
@@ -1031,6 +1032,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/troyduncan/projects/Ubuntu/Embedded/assig
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/rank.h:
+
+/Users/troyduncan/projects/Ubuntu/Embedded/assignment2/int_lib/int_arithmetic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
 

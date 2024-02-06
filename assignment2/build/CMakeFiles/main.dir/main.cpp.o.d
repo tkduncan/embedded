@@ -791,4 +791,5 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg \
-  /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/double_lib/double_arithmetic.h
+  /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/double_lib/double_arithmetic.h \
+  /Users/troyduncan/projects/Ubuntu/Embedded/assignment2/int_lib/int_arithmetic.h

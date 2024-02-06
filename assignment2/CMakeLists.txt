@@ -18,7 +18,7 @@ set(CPP_LIBRARY doublearithmetic)
 add_executable(main main.cpp)
 
 # Add a static library for C
-add_library(${C_LIBRARY} STATIC int_lib/int_arithmetic.h int_lib/add_int.c int_lib/subtract_int.c int_lib/multiply_int.c int_lib/divide_int.c)
+add_library(${C_LIBRARY} STATIC int_lib/add_int.c int_lib/subtract_int.c int_lib/multiply_int.c int_lib/divide_int.c)
 
 # Add a static library for C++
 add_library(${CPP_LIBRARY} STATIC double_lib/add_double.cpp double_lib/subtract_double.cpp double_lib/divide_double.cpp double_lib/multiply_double.cpp)
