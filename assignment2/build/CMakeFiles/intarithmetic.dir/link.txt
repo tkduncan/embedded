@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libintarithmetic.a CMakeFiles/intarithmetic.dir/int_lib/add_int.c.o CMakeFiles/intarithmetic.dir/int_lib/subtract_int.c.o CMakeFiles/intarithmetic.dir/int_lib/multiply_int.c.o CMakeFiles/intarithmetic.dir/int_lib/divide_int.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libintarithmetic.a

@@ -1,6 +1,8 @@
 To run this from the repository and create an executable, 
-run these commands from the root of the repository:
+first ensure cmake and g++ are installed. Then, run these 
+commands from the root of the repository:
 
+mkdir build
 cd assignment2/build
 cmake ..
 make

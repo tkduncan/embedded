@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libdoublearithmetic.a CMakeFiles/doublearithmetic.dir/double_lib/add_double.cpp.o CMakeFiles/doublearithmetic.dir/double_lib/subtract_double.cpp.o CMakeFiles/doublearithmetic.dir/double_lib/divide_double.cpp.o CMakeFiles/doublearithmetic.dir/double_lib/multiply_double.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libdoublearithmetic.a
