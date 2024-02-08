@@ -792,8 +792,14 @@ CMakeFiles/example.dir/main.cpp.o: /Users/troyduncan/projects/Ubuntu/Embedded/ex
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/double_arithmetic.h \
+  /Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/int_arithmetic.h
 
+
+/Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/int_arithmetic.h:
+
+/Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/double_arithmetic.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h:
 
