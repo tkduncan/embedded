@@ -1,5 +1,0 @@
-/Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/build/CMakeFiles/arithmetic.dir
-/Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/build/CMakeFiles/cpparithmetic.dir
-/Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/build/CMakeFiles/example.dir
-/Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/build/CMakeFiles/edit_cache.dir
-/Users/troyduncan/projects/Ubuntu/Embedded/examples/shared_libs/build/CMakeFiles/rebuild_cache.dir
