@@ -4,4 +4,4 @@ run these from there:
 
 cmake ..
 make
-./example
+./main
