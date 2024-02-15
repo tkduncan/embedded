@@ -1,6 +1,6 @@
-When testing this shared library stuff,
-make sure to create a build folder and
-run these from there:
+When testing the docker image, pull tkduncan/shared-libs-app
+
+Make sure to create a build folder and run these from there:
 
 cmake ..
 make
