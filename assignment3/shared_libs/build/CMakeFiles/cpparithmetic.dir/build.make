@@ -69,76 +69,76 @@ include CMakeFiles/cpparithmetic.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpparithmetic.dir/flags.make
 
-CMakeFiles/cpparithmetic.dir/divide_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
-CMakeFiles/cpparithmetic.dir/divide_double.cpp.o: ../divide_double.cpp
-CMakeFiles/cpparithmetic.dir/divide_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpparithmetic.dir/divide_double.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/divide_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/divide_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/divide_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/divide_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
+CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o: ../doubles/divide_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/divide_double.cpp
 
-CMakeFiles/cpparithmetic.dir/divide_double.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/divide_double.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/divide_double.cpp > CMakeFiles/cpparithmetic.dir/divide_double.cpp.i
+CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/divide_double.cpp > CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.i
 
-CMakeFiles/cpparithmetic.dir/divide_double.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/divide_double.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/divide_double.cpp -o CMakeFiles/cpparithmetic.dir/divide_double.cpp.s
+CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/divide_double.cpp -o CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.s
 
-CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
-CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o: ../multiply_double.cpp
-CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/multiply_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
+CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o: ../doubles/multiply_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/multiply_double.cpp
 
-CMakeFiles/cpparithmetic.dir/multiply_double.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/multiply_double.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/multiply_double.cpp > CMakeFiles/cpparithmetic.dir/multiply_double.cpp.i
+CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/multiply_double.cpp > CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.i
 
-CMakeFiles/cpparithmetic.dir/multiply_double.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/multiply_double.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/multiply_double.cpp -o CMakeFiles/cpparithmetic.dir/multiply_double.cpp.s
+CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/multiply_double.cpp -o CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.s
 
-CMakeFiles/cpparithmetic.dir/add_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
-CMakeFiles/cpparithmetic.dir/add_double.cpp.o: ../add_double.cpp
-CMakeFiles/cpparithmetic.dir/add_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpparithmetic.dir/add_double.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/add_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/add_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/add_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/add_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
+CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o: ../doubles/add_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/add_double.cpp
 
-CMakeFiles/cpparithmetic.dir/add_double.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/add_double.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/add_double.cpp > CMakeFiles/cpparithmetic.dir/add_double.cpp.i
+CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/add_double.cpp > CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.i
 
-CMakeFiles/cpparithmetic.dir/add_double.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/add_double.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/add_double.cpp -o CMakeFiles/cpparithmetic.dir/add_double.cpp.s
+CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/add_double.cpp -o CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.s
 
-CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
-CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o: ../subtract_double.cpp
-CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/subtract_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o: CMakeFiles/cpparithmetic.dir/flags.make
+CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o: ../doubles/subtract_double.cpp
+CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o: CMakeFiles/cpparithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o -MF CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o.d -o CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/subtract_double.cpp
 
-CMakeFiles/cpparithmetic.dir/subtract_double.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/subtract_double.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/subtract_double.cpp > CMakeFiles/cpparithmetic.dir/subtract_double.cpp.i
+CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/subtract_double.cpp > CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.i
 
-CMakeFiles/cpparithmetic.dir/subtract_double.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/subtract_double.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/subtract_double.cpp -o CMakeFiles/cpparithmetic.dir/subtract_double.cpp.s
+CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/doubles/subtract_double.cpp -o CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.s
 
 # Object files for target cpparithmetic
 cpparithmetic_OBJECTS = \
-"CMakeFiles/cpparithmetic.dir/divide_double.cpp.o" \
-"CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o" \
-"CMakeFiles/cpparithmetic.dir/add_double.cpp.o" \
-"CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o"
+"CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o" \
+"CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o" \
+"CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o" \
+"CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o"
 
 # External object files for target cpparithmetic
 cpparithmetic_EXTERNAL_OBJECTS =
 
-libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/divide_double.cpp.o
-libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o
-libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/add_double.cpp.o
-libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o
+libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o
+libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o
+libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o
+libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o
 libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/build.make
 libcpparithmetic.so: CMakeFiles/cpparithmetic.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcpparithmetic.so"

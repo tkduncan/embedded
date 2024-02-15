@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/example.dir/main.cpp.o -o example  -Wl,-rpath,/home/tduncan/Embedded/embedded/assignment3/shared_libs/build libarithmetic.so libcpparithmetic.so 

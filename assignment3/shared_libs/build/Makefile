@@ -143,120 +143,216 @@ cpparithmetic/fast:
 .PHONY : cpparithmetic/fast
 
 #=============================================================================
-# Target rules for targets named example
+# Target rules for targets named main
 
 # Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example
-.PHONY : example
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-.PHONY : example/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-add_double.o: add_double.cpp.o
-.PHONY : add_double.o
-
-# target to build an object file
-add_double.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/add_double.cpp.o
-.PHONY : add_double.cpp.o
-
-add_double.i: add_double.cpp.i
-.PHONY : add_double.i
-
-# target to preprocess a source file
-add_double.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/add_double.cpp.i
-.PHONY : add_double.cpp.i
-
-add_double.s: add_double.cpp.s
-.PHONY : add_double.s
-
-# target to generate assembly for a file
-add_double.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/add_double.cpp.s
-.PHONY : add_double.cpp.s
-
-add_int.o: add_int.c.o
-.PHONY : add_int.o
+doubles/add_double.o: doubles/add_double.cpp.o
+.PHONY : doubles/add_double.o
 
 # target to build an object file
-add_int.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/add_int.c.o
-.PHONY : add_int.c.o
+doubles/add_double.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.o
+.PHONY : doubles/add_double.cpp.o
 
-add_int.i: add_int.c.i
-.PHONY : add_int.i
+doubles/add_double.i: doubles/add_double.cpp.i
+.PHONY : doubles/add_double.i
 
 # target to preprocess a source file
-add_int.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/add_int.c.i
-.PHONY : add_int.c.i
+doubles/add_double.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.i
+.PHONY : doubles/add_double.cpp.i
 
-add_int.s: add_int.c.s
-.PHONY : add_int.s
+doubles/add_double.s: doubles/add_double.cpp.s
+.PHONY : doubles/add_double.s
 
 # target to generate assembly for a file
-add_int.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/add_int.c.s
-.PHONY : add_int.c.s
+doubles/add_double.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/add_double.cpp.s
+.PHONY : doubles/add_double.cpp.s
 
-divide_double.o: divide_double.cpp.o
-.PHONY : divide_double.o
+doubles/divide_double.o: doubles/divide_double.cpp.o
+.PHONY : doubles/divide_double.o
 
 # target to build an object file
-divide_double.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/divide_double.cpp.o
-.PHONY : divide_double.cpp.o
+doubles/divide_double.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.o
+.PHONY : doubles/divide_double.cpp.o
 
-divide_double.i: divide_double.cpp.i
-.PHONY : divide_double.i
+doubles/divide_double.i: doubles/divide_double.cpp.i
+.PHONY : doubles/divide_double.i
 
 # target to preprocess a source file
-divide_double.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/divide_double.cpp.i
-.PHONY : divide_double.cpp.i
+doubles/divide_double.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.i
+.PHONY : doubles/divide_double.cpp.i
 
-divide_double.s: divide_double.cpp.s
-.PHONY : divide_double.s
+doubles/divide_double.s: doubles/divide_double.cpp.s
+.PHONY : doubles/divide_double.s
 
 # target to generate assembly for a file
-divide_double.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/divide_double.cpp.s
-.PHONY : divide_double.cpp.s
+doubles/divide_double.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/divide_double.cpp.s
+.PHONY : doubles/divide_double.cpp.s
 
-divide_int.o: divide_int.c.o
-.PHONY : divide_int.o
+doubles/multiply_double.o: doubles/multiply_double.cpp.o
+.PHONY : doubles/multiply_double.o
 
 # target to build an object file
-divide_int.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/divide_int.c.o
-.PHONY : divide_int.c.o
+doubles/multiply_double.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.o
+.PHONY : doubles/multiply_double.cpp.o
 
-divide_int.i: divide_int.c.i
-.PHONY : divide_int.i
+doubles/multiply_double.i: doubles/multiply_double.cpp.i
+.PHONY : doubles/multiply_double.i
 
 # target to preprocess a source file
-divide_int.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/divide_int.c.i
-.PHONY : divide_int.c.i
+doubles/multiply_double.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.i
+.PHONY : doubles/multiply_double.cpp.i
 
-divide_int.s: divide_int.c.s
-.PHONY : divide_int.s
+doubles/multiply_double.s: doubles/multiply_double.cpp.s
+.PHONY : doubles/multiply_double.s
 
 # target to generate assembly for a file
-divide_int.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/divide_int.c.s
-.PHONY : divide_int.c.s
+doubles/multiply_double.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/multiply_double.cpp.s
+.PHONY : doubles/multiply_double.cpp.s
+
+doubles/subtract_double.o: doubles/subtract_double.cpp.o
+.PHONY : doubles/subtract_double.o
+
+# target to build an object file
+doubles/subtract_double.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.o
+.PHONY : doubles/subtract_double.cpp.o
+
+doubles/subtract_double.i: doubles/subtract_double.cpp.i
+.PHONY : doubles/subtract_double.i
+
+# target to preprocess a source file
+doubles/subtract_double.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.i
+.PHONY : doubles/subtract_double.cpp.i
+
+doubles/subtract_double.s: doubles/subtract_double.cpp.s
+.PHONY : doubles/subtract_double.s
+
+# target to generate assembly for a file
+doubles/subtract_double.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/doubles/subtract_double.cpp.s
+.PHONY : doubles/subtract_double.cpp.s
+
+ints/add_int.o: ints/add_int.c.o
+.PHONY : ints/add_int.o
+
+# target to build an object file
+ints/add_int.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/add_int.c.o
+.PHONY : ints/add_int.c.o
+
+ints/add_int.i: ints/add_int.c.i
+.PHONY : ints/add_int.i
+
+# target to preprocess a source file
+ints/add_int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/add_int.c.i
+.PHONY : ints/add_int.c.i
+
+ints/add_int.s: ints/add_int.c.s
+.PHONY : ints/add_int.s
+
+# target to generate assembly for a file
+ints/add_int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/add_int.c.s
+.PHONY : ints/add_int.c.s
+
+ints/divide_int.o: ints/divide_int.c.o
+.PHONY : ints/divide_int.o
+
+# target to build an object file
+ints/divide_int.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/divide_int.c.o
+.PHONY : ints/divide_int.c.o
+
+ints/divide_int.i: ints/divide_int.c.i
+.PHONY : ints/divide_int.i
+
+# target to preprocess a source file
+ints/divide_int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/divide_int.c.i
+.PHONY : ints/divide_int.c.i
+
+ints/divide_int.s: ints/divide_int.c.s
+.PHONY : ints/divide_int.s
+
+# target to generate assembly for a file
+ints/divide_int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/divide_int.c.s
+.PHONY : ints/divide_int.c.s
+
+ints/multiply_int.o: ints/multiply_int.c.o
+.PHONY : ints/multiply_int.o
+
+# target to build an object file
+ints/multiply_int.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/multiply_int.c.o
+.PHONY : ints/multiply_int.c.o
+
+ints/multiply_int.i: ints/multiply_int.c.i
+.PHONY : ints/multiply_int.i
+
+# target to preprocess a source file
+ints/multiply_int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/multiply_int.c.i
+.PHONY : ints/multiply_int.c.i
+
+ints/multiply_int.s: ints/multiply_int.c.s
+.PHONY : ints/multiply_int.s
+
+# target to generate assembly for a file
+ints/multiply_int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/multiply_int.c.s
+.PHONY : ints/multiply_int.c.s
+
+ints/subtract_int.o: ints/subtract_int.c.o
+.PHONY : ints/subtract_int.o
+
+# target to build an object file
+ints/subtract_int.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/subtract_int.c.o
+.PHONY : ints/subtract_int.c.o
+
+ints/subtract_int.i: ints/subtract_int.c.i
+.PHONY : ints/subtract_int.i
+
+# target to preprocess a source file
+ints/subtract_int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/subtract_int.c.i
+.PHONY : ints/subtract_int.c.i
+
+ints/subtract_int.s: ints/subtract_int.c.s
+.PHONY : ints/subtract_int.s
+
+# target to generate assembly for a file
+ints/subtract_int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/ints/subtract_int.c.s
+.PHONY : ints/subtract_int.c.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -264,7 +360,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -272,104 +368,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-multiply_double.o: multiply_double.cpp.o
-.PHONY : multiply_double.o
-
-# target to build an object file
-multiply_double.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/multiply_double.cpp.o
-.PHONY : multiply_double.cpp.o
-
-multiply_double.i: multiply_double.cpp.i
-.PHONY : multiply_double.i
-
-# target to preprocess a source file
-multiply_double.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/multiply_double.cpp.i
-.PHONY : multiply_double.cpp.i
-
-multiply_double.s: multiply_double.cpp.s
-.PHONY : multiply_double.s
-
-# target to generate assembly for a file
-multiply_double.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/multiply_double.cpp.s
-.PHONY : multiply_double.cpp.s
-
-multiply_int.o: multiply_int.c.o
-.PHONY : multiply_int.o
-
-# target to build an object file
-multiply_int.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/multiply_int.c.o
-.PHONY : multiply_int.c.o
-
-multiply_int.i: multiply_int.c.i
-.PHONY : multiply_int.i
-
-# target to preprocess a source file
-multiply_int.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/multiply_int.c.i
-.PHONY : multiply_int.c.i
-
-multiply_int.s: multiply_int.c.s
-.PHONY : multiply_int.s
-
-# target to generate assembly for a file
-multiply_int.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/multiply_int.c.s
-.PHONY : multiply_int.c.s
-
-subtract_double.o: subtract_double.cpp.o
-.PHONY : subtract_double.o
-
-# target to build an object file
-subtract_double.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/subtract_double.cpp.o
-.PHONY : subtract_double.cpp.o
-
-subtract_double.i: subtract_double.cpp.i
-.PHONY : subtract_double.i
-
-# target to preprocess a source file
-subtract_double.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/subtract_double.cpp.i
-.PHONY : subtract_double.cpp.i
-
-subtract_double.s: subtract_double.cpp.s
-.PHONY : subtract_double.s
-
-# target to generate assembly for a file
-subtract_double.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpparithmetic.dir/build.make CMakeFiles/cpparithmetic.dir/subtract_double.cpp.s
-.PHONY : subtract_double.cpp.s
-
-subtract_int.o: subtract_int.c.o
-.PHONY : subtract_int.o
-
-# target to build an object file
-subtract_int.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/subtract_int.c.o
-.PHONY : subtract_int.c.o
-
-subtract_int.i: subtract_int.c.i
-.PHONY : subtract_int.i
-
-# target to preprocess a source file
-subtract_int.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/subtract_int.c.i
-.PHONY : subtract_int.c.i
-
-subtract_int.s: subtract_int.c.s
-.PHONY : subtract_int.s
-
-# target to generate assembly for a file
-subtract_int.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic.dir/build.make CMakeFiles/arithmetic.dir/subtract_int.c.s
-.PHONY : subtract_int.c.s
 
 # Help Target
 help:
@@ -381,34 +381,34 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... arithmetic"
 	@echo "... cpparithmetic"
-	@echo "... example"
-	@echo "... add_double.o"
-	@echo "... add_double.i"
-	@echo "... add_double.s"
-	@echo "... add_int.o"
-	@echo "... add_int.i"
-	@echo "... add_int.s"
-	@echo "... divide_double.o"
-	@echo "... divide_double.i"
-	@echo "... divide_double.s"
-	@echo "... divide_int.o"
-	@echo "... divide_int.i"
-	@echo "... divide_int.s"
+	@echo "... main"
+	@echo "... doubles/add_double.o"
+	@echo "... doubles/add_double.i"
+	@echo "... doubles/add_double.s"
+	@echo "... doubles/divide_double.o"
+	@echo "... doubles/divide_double.i"
+	@echo "... doubles/divide_double.s"
+	@echo "... doubles/multiply_double.o"
+	@echo "... doubles/multiply_double.i"
+	@echo "... doubles/multiply_double.s"
+	@echo "... doubles/subtract_double.o"
+	@echo "... doubles/subtract_double.i"
+	@echo "... doubles/subtract_double.s"
+	@echo "... ints/add_int.o"
+	@echo "... ints/add_int.i"
+	@echo "... ints/add_int.s"
+	@echo "... ints/divide_int.o"
+	@echo "... ints/divide_int.i"
+	@echo "... ints/divide_int.s"
+	@echo "... ints/multiply_int.o"
+	@echo "... ints/multiply_int.i"
+	@echo "... ints/multiply_int.s"
+	@echo "... ints/subtract_int.o"
+	@echo "... ints/subtract_int.i"
+	@echo "... ints/subtract_int.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... multiply_double.o"
-	@echo "... multiply_double.i"
-	@echo "... multiply_double.s"
-	@echo "... multiply_int.o"
-	@echo "... multiply_int.i"
-	@echo "... multiply_int.s"
-	@echo "... subtract_double.o"
-	@echo "... subtract_double.i"
-	@echo "... subtract_double.s"
-	@echo "... subtract_int.o"
-	@echo "... subtract_int.i"
-	@echo "... subtract_int.s"
 .PHONY : help
 
 

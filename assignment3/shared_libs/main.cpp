@@ -1,6 +1,6 @@
 #include <iostream>
-#include "double_arithmetic.h"
-#include "int_arithmetic.h"
+#include "doubles/double_arithmetic.h"
+#include "ints/int_arithmetic.h"
 
 using namespace std;
 

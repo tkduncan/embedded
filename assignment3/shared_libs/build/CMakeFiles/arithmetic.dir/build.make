@@ -69,76 +69,76 @@ include CMakeFiles/arithmetic.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/arithmetic.dir/flags.make
 
-CMakeFiles/arithmetic.dir/add_int.c.o: CMakeFiles/arithmetic.dir/flags.make
-CMakeFiles/arithmetic.dir/add_int.c.o: ../add_int.c
-CMakeFiles/arithmetic.dir/add_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/arithmetic.dir/add_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/add_int.c.o -MF CMakeFiles/arithmetic.dir/add_int.c.o.d -o CMakeFiles/arithmetic.dir/add_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/add_int.c
+CMakeFiles/arithmetic.dir/ints/add_int.c.o: CMakeFiles/arithmetic.dir/flags.make
+CMakeFiles/arithmetic.dir/ints/add_int.c.o: ../ints/add_int.c
+CMakeFiles/arithmetic.dir/ints/add_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/arithmetic.dir/ints/add_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/ints/add_int.c.o -MF CMakeFiles/arithmetic.dir/ints/add_int.c.o.d -o CMakeFiles/arithmetic.dir/ints/add_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/add_int.c
 
-CMakeFiles/arithmetic.dir/add_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/add_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/add_int.c > CMakeFiles/arithmetic.dir/add_int.c.i
+CMakeFiles/arithmetic.dir/ints/add_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/ints/add_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/add_int.c > CMakeFiles/arithmetic.dir/ints/add_int.c.i
 
-CMakeFiles/arithmetic.dir/add_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/add_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/add_int.c -o CMakeFiles/arithmetic.dir/add_int.c.s
+CMakeFiles/arithmetic.dir/ints/add_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/ints/add_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/add_int.c -o CMakeFiles/arithmetic.dir/ints/add_int.c.s
 
-CMakeFiles/arithmetic.dir/subtract_int.c.o: CMakeFiles/arithmetic.dir/flags.make
-CMakeFiles/arithmetic.dir/subtract_int.c.o: ../subtract_int.c
-CMakeFiles/arithmetic.dir/subtract_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/arithmetic.dir/subtract_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/subtract_int.c.o -MF CMakeFiles/arithmetic.dir/subtract_int.c.o.d -o CMakeFiles/arithmetic.dir/subtract_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/subtract_int.c
+CMakeFiles/arithmetic.dir/ints/subtract_int.c.o: CMakeFiles/arithmetic.dir/flags.make
+CMakeFiles/arithmetic.dir/ints/subtract_int.c.o: ../ints/subtract_int.c
+CMakeFiles/arithmetic.dir/ints/subtract_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/arithmetic.dir/ints/subtract_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/ints/subtract_int.c.o -MF CMakeFiles/arithmetic.dir/ints/subtract_int.c.o.d -o CMakeFiles/arithmetic.dir/ints/subtract_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/subtract_int.c
 
-CMakeFiles/arithmetic.dir/subtract_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/subtract_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/subtract_int.c > CMakeFiles/arithmetic.dir/subtract_int.c.i
+CMakeFiles/arithmetic.dir/ints/subtract_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/ints/subtract_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/subtract_int.c > CMakeFiles/arithmetic.dir/ints/subtract_int.c.i
 
-CMakeFiles/arithmetic.dir/subtract_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/subtract_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/subtract_int.c -o CMakeFiles/arithmetic.dir/subtract_int.c.s
+CMakeFiles/arithmetic.dir/ints/subtract_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/ints/subtract_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/subtract_int.c -o CMakeFiles/arithmetic.dir/ints/subtract_int.c.s
 
-CMakeFiles/arithmetic.dir/multiply_int.c.o: CMakeFiles/arithmetic.dir/flags.make
-CMakeFiles/arithmetic.dir/multiply_int.c.o: ../multiply_int.c
-CMakeFiles/arithmetic.dir/multiply_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/arithmetic.dir/multiply_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/multiply_int.c.o -MF CMakeFiles/arithmetic.dir/multiply_int.c.o.d -o CMakeFiles/arithmetic.dir/multiply_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/multiply_int.c
+CMakeFiles/arithmetic.dir/ints/multiply_int.c.o: CMakeFiles/arithmetic.dir/flags.make
+CMakeFiles/arithmetic.dir/ints/multiply_int.c.o: ../ints/multiply_int.c
+CMakeFiles/arithmetic.dir/ints/multiply_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/arithmetic.dir/ints/multiply_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/ints/multiply_int.c.o -MF CMakeFiles/arithmetic.dir/ints/multiply_int.c.o.d -o CMakeFiles/arithmetic.dir/ints/multiply_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/multiply_int.c
 
-CMakeFiles/arithmetic.dir/multiply_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/multiply_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/multiply_int.c > CMakeFiles/arithmetic.dir/multiply_int.c.i
+CMakeFiles/arithmetic.dir/ints/multiply_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/ints/multiply_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/multiply_int.c > CMakeFiles/arithmetic.dir/ints/multiply_int.c.i
 
-CMakeFiles/arithmetic.dir/multiply_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/multiply_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/multiply_int.c -o CMakeFiles/arithmetic.dir/multiply_int.c.s
+CMakeFiles/arithmetic.dir/ints/multiply_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/ints/multiply_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/multiply_int.c -o CMakeFiles/arithmetic.dir/ints/multiply_int.c.s
 
-CMakeFiles/arithmetic.dir/divide_int.c.o: CMakeFiles/arithmetic.dir/flags.make
-CMakeFiles/arithmetic.dir/divide_int.c.o: ../divide_int.c
-CMakeFiles/arithmetic.dir/divide_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/arithmetic.dir/divide_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/divide_int.c.o -MF CMakeFiles/arithmetic.dir/divide_int.c.o.d -o CMakeFiles/arithmetic.dir/divide_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/divide_int.c
+CMakeFiles/arithmetic.dir/ints/divide_int.c.o: CMakeFiles/arithmetic.dir/flags.make
+CMakeFiles/arithmetic.dir/ints/divide_int.c.o: ../ints/divide_int.c
+CMakeFiles/arithmetic.dir/ints/divide_int.c.o: CMakeFiles/arithmetic.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/arithmetic.dir/ints/divide_int.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arithmetic.dir/ints/divide_int.c.o -MF CMakeFiles/arithmetic.dir/ints/divide_int.c.o.d -o CMakeFiles/arithmetic.dir/ints/divide_int.c.o -c /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/divide_int.c
 
-CMakeFiles/arithmetic.dir/divide_int.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/divide_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/divide_int.c > CMakeFiles/arithmetic.dir/divide_int.c.i
+CMakeFiles/arithmetic.dir/ints/divide_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/ints/divide_int.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/divide_int.c > CMakeFiles/arithmetic.dir/ints/divide_int.c.i
 
-CMakeFiles/arithmetic.dir/divide_int.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/divide_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/divide_int.c -o CMakeFiles/arithmetic.dir/divide_int.c.s
+CMakeFiles/arithmetic.dir/ints/divide_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/ints/divide_int.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tduncan/Embedded/embedded/assignment3/shared_libs/ints/divide_int.c -o CMakeFiles/arithmetic.dir/ints/divide_int.c.s
 
 # Object files for target arithmetic
 arithmetic_OBJECTS = \
-"CMakeFiles/arithmetic.dir/add_int.c.o" \
-"CMakeFiles/arithmetic.dir/subtract_int.c.o" \
-"CMakeFiles/arithmetic.dir/multiply_int.c.o" \
-"CMakeFiles/arithmetic.dir/divide_int.c.o"
+"CMakeFiles/arithmetic.dir/ints/add_int.c.o" \
+"CMakeFiles/arithmetic.dir/ints/subtract_int.c.o" \
+"CMakeFiles/arithmetic.dir/ints/multiply_int.c.o" \
+"CMakeFiles/arithmetic.dir/ints/divide_int.c.o"
 
 # External object files for target arithmetic
 arithmetic_EXTERNAL_OBJECTS =
 
-libarithmetic.so: CMakeFiles/arithmetic.dir/add_int.c.o
-libarithmetic.so: CMakeFiles/arithmetic.dir/subtract_int.c.o
-libarithmetic.so: CMakeFiles/arithmetic.dir/multiply_int.c.o
-libarithmetic.so: CMakeFiles/arithmetic.dir/divide_int.c.o
+libarithmetic.so: CMakeFiles/arithmetic.dir/ints/add_int.c.o
+libarithmetic.so: CMakeFiles/arithmetic.dir/ints/subtract_int.c.o
+libarithmetic.so: CMakeFiles/arithmetic.dir/ints/multiply_int.c.o
+libarithmetic.so: CMakeFiles/arithmetic.dir/ints/divide_int.c.o
 libarithmetic.so: CMakeFiles/arithmetic.dir/build.make
 libarithmetic.so: CMakeFiles/arithmetic.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libarithmetic.so"

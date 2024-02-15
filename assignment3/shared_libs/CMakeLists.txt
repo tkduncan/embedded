@@ -10,11 +10,11 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 # set(CMAKE_SKIP_RPATH TRUE)
 
 # Add the shared libraries
-add_library(arithmetic SHARED add_int.c subtract_int.c multiply_int.c divide_int.c)
-add_library(cpparithmetic SHARED divide_double.cpp multiply_double.cpp add_double.cpp subtract_double.cpp)
+add_library(arithmetic SHARED ints/add_int.c ints/subtract_int.c ints/multiply_int.c ints/divide_int.c)
+add_library(cpparithmetic SHARED doubles/divide_double.cpp doubles/multiply_double.cpp doubles/add_double.cpp doubles/subtract_double.cpp)
 
 # Add the executable
-add_executable(example main.cpp)
+add_executable(main main.cpp)
 
 # Link the executable with the shared libraries
-target_link_libraries(example arithmetic cpparithmetic)
+target_link_libraries(main arithmetic cpparithmetic)
