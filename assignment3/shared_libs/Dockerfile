@@ -10,4 +10,4 @@ WORKDIR /app/build
 RUN cmake .. 
 RUN make
 
-CMD ["./example"]
+CMD ["./main"]

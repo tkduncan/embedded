@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libarithmetic.so -o libarithmetic.so CMakeFiles/arithmetic.dir/ints/add_int.c.o CMakeFiles/arithmetic.dir/ints/subtract_int.c.o CMakeFiles/arithmetic.dir/ints/multiply_int.c.o CMakeFiles/arithmetic.dir/ints/divide_int.c.o 

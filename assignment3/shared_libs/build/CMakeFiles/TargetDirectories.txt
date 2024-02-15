@@ -1,5 +1,0 @@
-/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles/arithmetic.dir
-/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles/cpparithmetic.dir
-/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles/main.dir
-/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles/edit_cache.dir
-/home/tduncan/Embedded/embedded/assignment3/shared_libs/build/CMakeFiles/rebuild_cache.dir
